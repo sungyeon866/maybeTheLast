@@ -119,11 +119,11 @@ public class TimerApp extends Frame {
         gbc.fill = GridBagConstraints.BOTH;
         gbc.insets = new Insets(5, 5, 5, 5);
 
-        addButtonToPanel(panel, "35 minutes 1000 won", 0, 0, gbc);
-        addButtonToPanel(panel, "1 hour 20 minutes 2000 won", 1, 0, gbc);
-        addButtonToPanel(panel, "2 hours 3000 won", 0, 1, gbc);
-        addButtonToPanel(panel, "2 hours 40 minutes 4000 won", 1, 1, gbc);
-        addButtonToPanel(panel, "3 hours 30 minutes 5000 won", 0, 2, gbc);
+        addButtonToPanel(panel, "35분 1000원", 0, 0, gbc);
+        addButtonToPanel(panel, "1시간20분 2000원", 1, 0, gbc);
+        addButtonToPanel(panel, "2시간 3000원", 0, 1, gbc);
+        addButtonToPanel(panel, "2시간40분 4000원", 1, 1, gbc);
+        addButtonToPanel(panel, "3시간30분 5000원", 0, 2, gbc);
 
         return panel;
     }
