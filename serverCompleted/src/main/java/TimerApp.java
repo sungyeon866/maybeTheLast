@@ -70,7 +70,6 @@ public class TimerApp extends Frame {
                 } else {
                     timer.cancel();
                     timer = null;
-                    JOptionPane.showMessageDialog(null, "Time's up!");
                     Timer timer2 = new Timer();
                     timer2.schedule(new TimerTask() {
                         @Override
